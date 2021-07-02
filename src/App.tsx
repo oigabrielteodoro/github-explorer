@@ -4,7 +4,7 @@ import { Routes } from './routes'
 
 import { GlobalStyles } from './styles/global'
 
-function App() {
+export default function App() {
   return (
     <>
       <GlobalStyles />
@@ -13,5 +13,3 @@ function App() {
     </>
   )
 }
-
-export default App
