@@ -33,6 +33,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${theme.font.family}, sans-serif;
     font-size: ${theme.font.sizes.paragraph};
+    background: ${theme.colors.neutral[100]};
   }
 
   h1 {

@@ -1,4 +1,7 @@
 export const theme = {
+  grid: {
+    container: '120rem',
+  },
   radius: {
     input: '0.5rem',
     rounded: '50%',
