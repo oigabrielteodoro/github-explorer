@@ -9,11 +9,9 @@ type LinkProps = {
 
 jest.mock('react-router-dom', () => ({
   Link: ({ children }: LinkProps) => children,
-  useLocation() {
-    return {
-      pathname: '/dasda',
-    }
-  },
+  useLocation: () => ({
+    pathname: '/',
+  }),
 }))
 
 describe('<Header />', () => {
@@ -22,6 +20,6 @@ describe('<Header />', () => {
 
     expect(screen.getByRole('img')).toBeInTheDocument()
 
-    expect(container).toMatchSnapshot()
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

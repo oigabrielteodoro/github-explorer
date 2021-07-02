@@ -33,7 +33,7 @@ export const theme = {
       200: '#c9c9d4',
       500: '#a8a8b3',
       700: '#3d3d4d',
-      900: '#1a1a1a',
+      900: '#3a3a3a',
     },
   },
   spacing: {

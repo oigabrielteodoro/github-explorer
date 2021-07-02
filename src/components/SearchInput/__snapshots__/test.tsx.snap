@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+.c0 button {
+  border: 0;
+  color: #fff;
+  padding: 2.4rem 3rem;
+  background: #04D361;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 0 0.5rem 0.5rem 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  min-width: 21rem;
+}
+
+.c0 button:hover {
+  -webkit-filter: brightness(0.9);
+  filter: brightness(0.9);
+}
+
+.c0 input {
+  border: 0;
+  background: transparent;
+  color: #3a3a3a;
+  font-size: 2rem;
+  padding: 2.4rem 3rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 50rem;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: #a8a8b3;
+}
+
+.c0 input::-moz-placeholder {
+  color: #a8a8b3;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: #a8a8b3;
+}
+
+.c0 input::placeholder {
+  color: #a8a8b3;
+}
+
+<div
+  class="c0"
+>
+  <input
+    placeholder="Digite aqui"
+  />
+  <button
+    type="button"
+  >
+    Pesquisar
+  </button>
+</div>
+`;
