@@ -21,7 +21,6 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     scroll-behavior: smooth;
-    overflow-y: hidden;
   }
 
   html,

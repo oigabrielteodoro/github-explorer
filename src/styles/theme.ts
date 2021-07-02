@@ -68,6 +68,6 @@ export const theme = {
   },
   avatar: {
     small: '3.2rem',
-    large: '8.0rem',
+    large: '6.2rem',
   },
 } as const
