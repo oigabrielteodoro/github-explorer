@@ -1,6 +1,6 @@
 export const theme = {
   grid: {
-    container: '120rem',
+    container: '105rem',
   },
   radius: {
     input: '0.5rem',
@@ -8,7 +8,7 @@ export const theme = {
   },
   font: {
     family: 'Roboto',
-    weight: {
+    weights: {
       normal: 400,
       medium: 500,
       bold: 700,

@@ -9,7 +9,11 @@ export function Home() {
     <S.Container>
       <Header />
 
-      <h1>Github Explorer</h1>
+      <S.Content>
+        <h1>Github Explorer</h1>
+      </S.Content>
+
+      <img src="/img/github.svg" alt="Github" />
     </S.Container>
   )
 }

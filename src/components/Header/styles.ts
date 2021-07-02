@@ -11,7 +11,7 @@ export const Container = styled.div`
   a {
     display: flex;
     align-items: center;
-    font-weight: ${theme.font.weight.medium};
+    font-weight: ${theme.font.weights.medium};
     transition: ${theme.transition.fast};
     color: ${theme.colors.neutral[500]};
     margin-left: auto;
