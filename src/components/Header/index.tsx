@@ -2,10 +2,10 @@ import React from 'react'
 
 import * as S from './styles'
 
-export function Home() {
+export function Header() {
   return (
     <S.Container>
-      <h1>Github Explorer</h1>
+      <h1>Header</h1>
     </S.Container>
   )
 }
