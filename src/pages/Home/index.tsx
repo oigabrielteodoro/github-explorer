@@ -1,7 +1,5 @@
 import React, { useState, ChangeEvent, useEffect } from 'react'
 
-import { Link } from 'react-router-dom'
-
 import { RepositoryDTO } from '../../dtos/RepositoryDTO'
 
 import { Avatar } from '../../components/Avatar'
