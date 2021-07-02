@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 105rem;
+  margin: 4.0rem auto 0;
+}
+
+.c0 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 500;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  color: #a8a8b3;
+  margin-left: auto;
+}
+
+.c0 a:hover {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
+.c0 a svg {
+  margin-right: 0.6rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <img
+      alt="Logo"
+      src="/img/logo.svg"
+    />
+    <svg
+      fill="none"
+      height="18"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2.5"
+      viewBox="0 0 24 24"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="19"
+        x2="5"
+        y1="12"
+        y2="12"
+      />
+      <polyline
+        points="12 19 5 12 12 5"
+      />
+    </svg>
+    Voltar
+  </header>
+</div>
+`;
