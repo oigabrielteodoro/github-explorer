@@ -2,13 +2,17 @@ import React, { InputHTMLAttributes } from 'react'
 
 import * as S from './styles'
 
-type SearchInputProps = InputHTMLAttributes<HTMLInputElement>
+type SearchInputProps = {
+  onClick: () => void
+} & InputHTMLAttributes<HTMLInputElement>
 
-export function SearchInput(props: SearchInputProps) {
+export function SearchInput({ onClick, ...rest }: SearchInputProps) {
   return (
     <S.Container>
-      <input {...props} />
-      <button type="button">Pesquisar</button>
+      <input {...rest} />
+      <button type="button" onClick={onClick}>
+        Pesquisar
+      </button>
     </S.Container>
   )
 }
